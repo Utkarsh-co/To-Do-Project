@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listify</title>
+  <link rel="icon" type="image/png" href="my-logo.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="my-logo.png" />
+<link rel="shortcut icon" href="my-logo.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="my-logo.png" />
+<link rel="manifest" href="my-logo.png" />
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- NAV BAR -->
+  <div class="nav">
+    <div class="my-logo"><p>Listify</p></div>
+    <!-- <div class="task"><a href="#">Task</a></div> -->
+    <!-- <div class="ser-inp">
+      <input type="text" id="serach" oninput="serach()" placeholder="Serach your task">
+       <button onclick="serach()">Show</button>
+    </div>  -->
+    <div class="log"><a href="#">🧑‍💻Login</a></div>
+  </div>
+
+  <!-- MAIN BODY -->
+   <div class="main">
+    <h1 id="name">Welecome Dude!</h1>
+    <h3>Add Your Daily Task</h3>
+    <div class="search">
+    <input type="search" id="task" placeholder="Enter your task">
+    <input type="date" id="date">
+    </div>
+    <br>
+   <div class="but"> <button onclick="add()">ADD</button></div>
+   </div>
+
+   <!-- TASK SHOW -->
+    <div class="task">
+       <h1>Task to do</h1>
+       <div class="ser-inp">
+      <input type="search" id="serach" oninput="serach()" placeholder="Serach your task">
+      <!-- <button onclick="serach()">Show</button> -->
+    </div>
+     
+      <p id="display"></p>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
