@@ -1,3 +1,4 @@
+
 # ✅ Listify – To-Do App
 
 A clean and responsive To-Do list app where users can add daily tasks along with a due date. The app is fully functional on the browser using localStorage to store tasks.
@@ -41,16 +42,22 @@ To-Do-Project/
 1. Clone this repository:
    ```bash
    git clone https://github.com/utkarsh-co/To-Do-Project.git
+   ```
 
-💡 Improvements Planned
-   → Edit task functionality
-   → Task categories (Work, Personal, etc.)
-   → Dark mode toggle
-   → Task reminders
+2. Open `index.html` in any modern browser.
 
-👤 Author
-Utkarsh
-📎 GitHub: @utkarsh-co
+---
 
+## 💡 Improvements Planned
 
+- Edit task functionality  
+- Task categories (Work, Personal, etc.)  
+- Dark mode toggle  
+- Task reminders
 
+---
+
+## 👤 Author
+
+**Utkarsh**  
+📎 GitHub: [@utkarsh-co](https://github.com/utkarsh-co)
